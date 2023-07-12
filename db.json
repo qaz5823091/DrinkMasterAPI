@@ -1,37 +1,9 @@
 {
-	"stores": [
-		{"id": 1, "name": "可不渴", "english_name": "kebuke"},
-		{"id": 2, "name": "迷克夏", "english_name": "milksha"},
-		{"id": 3, "name": "吳嘉紅茶冰", "english_name": "wujia"},
-		{"id": 4, "name": "白象子", "english_name": "whitealley"},
-		{"id": 5, "name": "清新", "english_name": "chingshin"},
-		{"id": 6, "name": "五十籃", "english_name": "fiftylan"},
-		{"id": 7, "name": "台灣第一位", "english_name": "teatop"}
-	],
-	"kebuke": [
-		{"id": 1, "name": "熟成紅茶", "price": "30/35"},
-		{"id": 2, "name": "麗春紅茶", "price": "30/35"},
-		{"id": 3, "name": "太妃紅茶", "price": "35/40"},
-		{"id": 4, "name": "胭脂紅茶", "price": "40/45"},
-		{"id": 5, "name": "雪藏紅茶", "price": "50/60"},
-		{"id": 6, "name": "熟成冷露", "price": "30/35"},
-		{"id": 7, "name": "雪花冷露", "price": "30/35"},
-		{"id": 8, "name": "春芽冷露", "price": "30/35"},
-		{"id": 9, "name": "春梅冰茶", "price": "40/50"},
-		{"id": 10, "name": "冷露歐蕾", "price": "45/55"}
-	],
-	"milksha": [
-		{"id": 1, "name": "柚蜜白玉", "price": "65"},
-		{"id": 2, "name": "珍珠紅茶拿鐵", "price": "55/65"},
-		{"id": 3, "name": "決明大麥拿鐵", "price": "45/55"},
-		{"id": 4, "name": "伯爵紅茶拿鐵", "price": "45/55"},
-		{"id": 5, "name": "香柚綠茶", "price": "55"}
-	],
-	"wujia": [
-		{"id": 1, "name": "古法冬瓜茶", "price": "25/30"},
-		{"id": 2, "name": "冬瓜牛奶", "price": "45/50"},
-		{"id": 3, "name": "金萱綠茶", "price": "25/30"},
-		{"id": 4, "name": "麥茶冬瓜", "price": "25/30"},
-		{"id": 5, "name": "紅茶牛奶", "price": "45/50"},
-	]
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
 }
