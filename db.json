@@ -1,11 +1,4 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" },
   "stores": [
     {"id": 1, "name": "可不渴", "english_name": "kebuke"},
     {"id": 2, "name": "迷克夏", "english_name": "milksha"},
@@ -14,5 +7,19 @@
     {"id": 5, "name": "清新", "english_name": "chingshin"},
     {"id": 6, "name": "五十籃", "english_name": "fiftylan"},
     {"id": 7, "name": "台灣第一位", "english_name": "teatop"}
+  ],
+  "drinks": [
+    {"id": 1, "name": "可不渴", "english_name": "kebuke", "storeId": 1},
+    {"id": 2, "name": "迷克夏", "english_name": "milksha", "storeId": 1},
+    {"id": 3, "name": "吳嘉紅茶冰", "english_name": "wujia", "storeId": 1},
+    {"id": 4, "name": "白象子", "english_name": "whitealley", "storeId": 1},
+    {"id": 5, "name": "清新", "english_name": "chingshin", "storeId": 1},
+    {"id": 6, "name": "五十籃", "english_name": "fiftylan", "storeId": 1},
+    {"id": 7, "name": "台灣第一位", "english_name": "teatop", "storeId": 1},
+    {"id": 8, "name": "柚蜜白玉", "price": "65", "storeId": 2},
+    {"id": 9, "name": "珍珠紅茶拿鐵", "price": "55/65", "storeId": 2},
+    {"id": 10, "name": "決明大麥拿鐵", "price": "45/55", "storeId": 2},
+    {"id": 11, "name": "伯爵紅茶拿鐵", "price": "45/55", "storeId": 2},
+    {"id": 12, "name": "香柚綠茶", "price": "55", "storeId": 2}
   ]
 }
