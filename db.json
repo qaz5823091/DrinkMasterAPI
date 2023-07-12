@@ -5,5 +5,14 @@
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "profile": { "name": "typicode" }
+  "profile": { "name": "typicode" },
+  "stores": [
+    {"id": 1, "name": "可不渴", "english_name": "kebuke"},
+    {"id": 2, "name": "迷克夏", "english_name": "milksha"},
+    {"id": 3, "name": "吳嘉紅茶冰", "english_name": "wujia"},
+    {"id": 4, "name": "白象子", "english_name": "whitealley"},
+    {"id": 5, "name": "清新", "english_name": "chingshin"},
+    {"id": 6, "name": "五十籃", "english_name": "fiftylan"},
+    {"id": 7, "name": "台灣第一位", "english_name": "teatop"}
+  ]
 }
