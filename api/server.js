@@ -2,17 +2,9 @@
 const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
-const middlewares = jsonServer.defaults()
+const middlewares = jsonServer.defaults({readOnly: true})
 
 server.use(middlewares)
-
-server.use((req, res, next) => {
-    if (req.method === 'POST') {
-        req.method = 'GET'
-        req.query = req.body
-    }
-    next()
-})
 
 // Add this before server.use(router)
 server.use(jsonServer.rewriter({
